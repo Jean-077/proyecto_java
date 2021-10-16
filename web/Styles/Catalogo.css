@@ -1,0 +1,124 @@
+/* 
+    Created on : 28/10/2020, 03:32:29 PM
+    Author     : Adrian
+*/
+body{
+    background-image: url(../img/FondoC.png);
+}
+#tabla-precios{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.precio-col{
+    display: inline-block;
+    background-color: #f3f3f3;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 6px #ddd;
+}
+
+@media screen and (max-width:768px){
+    .precio-col{
+        width: 49%;
+        float: left;
+        margin: 1%;
+    }
+    
+    .precio-col:last-child{
+        margin-right: 0;
+    }
+}
+
+.precio-col-header{
+    background-color: #333;
+    padding: 7%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-image: 10;
+}
+
+.precio-col-header h3{
+    color: #f3f3f3;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.precio-col-header p{
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.precio-col-feactures{
+    padding: 0px 20px 20px 20px;
+}
+
+.precio-col-feactures{
+    padding: 20px 0px;
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.precio-col-feactures p:first child,
+.precio-col-feactures p:last child{
+    border-top: none;
+}
+
+.precio-col-comprar{
+    max-width: 183px;
+    text-align: center;
+    background-color: #dd9933;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    border: 2px solid #dd9933;
+}
+
+.precio-col-comprar a{
+    color: #f3f3f3;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.precio-col-comprar:hover{
+    background-color: #f3f3f3;
+    transition: all 0.3s;
+}
+
+.precio-col-comprar:hover a{
+    color: #dd9933;
+    transition: all 0.3s;
+}
+
+.t1,
+h1{
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.btn-submit {
+    padding: 0 20px;
+    line-height: 40px;
+    border: none;
+    color: #f3f3f3;
+    background: #dd9933;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #f3f3f3;
+    color: #dd9933;
+    transition: all 0.3s;
+}
